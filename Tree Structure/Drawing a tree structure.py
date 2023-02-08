@@ -1,8 +1,9 @@
 import turtle
 t=turtle.Turtle()
 t.screen.bgcolor('black')
+t.screen.title('TREE STRUCTURE')
 t.pensize(3)
-t.color('red')
+t.color('blue')
 t.left(90)
 t.backward(100)
 t.speed(700)
@@ -23,4 +24,6 @@ def tree(i):
         t.left(30)
         t.backward(i)
 tree(100)
+turtle.hideturtle()
 turtle.done()
+
