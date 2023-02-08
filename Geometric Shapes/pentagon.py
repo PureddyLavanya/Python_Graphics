@@ -1,0 +1,13 @@
+import turtle
+obj=turtle.Turtle()
+scr=turtle.Screen()
+scr.title('PENTAGON SHAPE')
+scr.bgcolor('ivory')
+obj.shape('triangle')
+obj.pensize(6)
+obj.color('green','blue')
+obj.begin_fill()
+obj.fillcolor('purple')
+obj.circle(100,steps=5)
+obj.end_fill()
+obj.right(360)

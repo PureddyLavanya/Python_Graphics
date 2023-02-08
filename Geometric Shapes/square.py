@@ -1,0 +1,13 @@
+import turtle
+obj=turtle.Turtle()
+scr=turtle.Screen()
+scr.title('SQUARE SHAPE')
+scr.bgcolor('black')
+obj.shape('triangle')
+obj.pensize(6)
+obj.color('red','blue')
+obj.begin_fill()
+obj.fillcolor('yellow')
+obj.circle(100,steps=4)
+obj.end_fill()
+obj.right(360)

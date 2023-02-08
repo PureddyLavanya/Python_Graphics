@@ -1,0 +1,13 @@
+import turtle
+obj=turtle.Turtle()
+scr=turtle.Screen()
+scr.title('HEXAGON SHAPE')
+scr.bgcolor('black')
+obj.shape('triangle')
+obj.pensize(6)
+obj.color('yellow','blue')
+obj.begin_fill()
+obj.fillcolor('red')
+obj.circle(100,steps=6)
+obj.end_fill()
+obj.right(360)
