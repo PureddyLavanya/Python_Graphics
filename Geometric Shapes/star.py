@@ -1,0 +1,18 @@
+import turtle
+obj=turtle.Turtle()
+scr=turtle.Screen()
+scr.title('OCTAGON SHAPE')
+scr.bgcolor('ivory')
+obj.shape('triangle')
+obj.pensize(4)
+obj.up()
+obj.goto(-80,0)
+obj.down()
+obj.color('green','blue')
+obj.begin_fill()
+obj.fillcolor('purple')
+for i in range(8):
+    obj.forward(300)
+    obj.left(135)
+obj.end_fill()
+obj.right(360)
