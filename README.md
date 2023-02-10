@@ -2,7 +2,7 @@
 ![python graphic image](https://user-images.githubusercontent.com/97614700/218076452-ae20b90d-f1de-4105-bdda-80a959995294.jpeg)
 <br>
 <br>
-<p style="font-style:Courier New; color:yellow">
+<p style="font-style:Courier New;">
 <pre>    
           Turtle is a Python library to draw graphics.
           After importing the "turtle" module we can draw diiferent graphics using the functions provided by the turtle module.
