@@ -3,7 +3,7 @@
 <br>
 <br>
 <pre>    
-<p style="font-family:Courier New; color:yellow">
+<p style="font-style:Courier New; color:yellow">
           Turtle is a Python library to draw graphics.
           After importing the "turtle" module we can draw diiferent graphics using the functions provided by the turtle module.
           By using "Screen" method we can create a graphics window.
