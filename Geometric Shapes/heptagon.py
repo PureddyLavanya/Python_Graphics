@@ -1,0 +1,15 @@
+import turtle
+obj=turtle.Turtle()
+scr=turtle.Screen()
+scr.title('HEPTAGON SHAPE')
+scr.bgcolor('black')
+obj.shape('triangle')
+obj.pensize(6)
+obj.color('green','yellow')
+obj.begin_fill()
+obj.fillcolor('sky blue')
+for i in range(7):
+    obj.forward(100)
+    obj.left(51.43)
+obj.end_fill()
+obj.right(245)
